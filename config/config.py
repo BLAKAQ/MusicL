@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "15024266"))
-API_HASH = getenv("API_HASH", "1271b5b0c7154dee4288c96456b8c223")
+API_ID = int(getenv("API_ID", "5093678"))
+API_HASH = getenv("API_HASH", "3953d7e8dad3bacc4b4ffb7d02a749af")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5098019945:AAFdCl0idwhYK9ggP8Lep4xGSMKQBbXWbac")
+BOT_TOKEN = getenv("BOT_TOKEN", "5249941480:AAGsDvN8cRTWRq1ON3eKgwEA7whLt-YxLv0")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://yosfp:plar@cluster0.4dqcb18.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://evan:musc@cluster0.6igvww4.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001739505630"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "PLayr Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music Evan Team")
 
 # Your User ID.
 OWNER_ID = list(
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/bd8874053915c83cdd324.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/485abb839d13a44707030.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
