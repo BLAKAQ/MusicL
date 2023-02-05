@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music Evan Team")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1005593710").split())
+    map(int, getenv("OWNER_ID", "5721307719").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/GGG66",
+    "https://t.me/vFFFv",
 )
 BOT_USERNAME = getenv(
     "BOT_USERNAME", "E9C9BoT"
@@ -68,22 +68,22 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "vrrrrvr"
+    "CHANNEL_SUDO", "F6FF6"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 ."
+    "YAFA_NAME", "‹ سورس درايف ›"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/vrrrrvr"
+   " YAFA_CHANNEL", "https://t.me/F6FF6"
 )  # رابط قناتك
 SUDO_USER =getenv(
-    "SUDO_USER", "https://t.me/GGG66"
+    "SUDO_USER", "https://t.me/vFFFv"
 )  # رابط حسابك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/vrrrrvr"
+    "SUPPORT_CHANNEL", "https://t.me/F6FF6"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DJJJJJe"
+    "SUPPORT_GROUP", "https://t.me/DJJJED"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -115,7 +115,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/J45BoT")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/FY7Bot")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/485abb839d13a44707030.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/f8fd8356250304204bada.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
