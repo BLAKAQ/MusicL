@@ -1,5 +1,5 @@
-# Dev : https://t me/YY8GG
-#Group : https://t.me/YaFaGr
+# Dev : https://t me/vFFFv
+#Ch : https://t.me/F6FF6
 import requests
 from strings.filters import command
 from gpytranslate import Translator
@@ -144,7 +144,7 @@ def echo(client, msg):
 async def ahmad(client: Client, message: Message): 
   await message.reply_photo(
     photo=config.START_IMG_URL,
-    caption=f"""**⌁ اهلا بك في اوامر سورس ايفان ميوزك ⌁**
+    caption=f"""**⌁ اهلا بك في اوامر سورس درايف ميوزك ⌁**
     
 `تشغيل` ، `شغل` : اسم الأغنية او رابط يوتيوب ⌁
 
@@ -164,7 +164,7 @@ async def ahmad(client: Client, message: Message):
             [
                 InlineKeyboardButton(f"{YAFA_NAME}", url=f"{YAFA_CHANNEL}"),
                 ],[
-                InlineKeyboardButton(f"‹ قناة الشروحات ›", url=f"https://t.me/DJJJJJe"),
+                InlineKeyboardButton(f"‹ قناة الشروحات ›", url=f"https://t.me/DJJJED"),
                 ],[
                 InlineKeyboardButton("‹ اضفني الى مجموعتك ›", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ]
@@ -172,26 +172,26 @@ async def ahmad(client: Client, message: Message):
         ),
     )
     
-@app.on_message(command(["سورس","السورس","المطور","المبرمج"])
+@app.on_message(command(["سورس","السورس","devbot","development"])
     & filters.group
     & ~filters.edited
 )
-@app.on_message(command(["سورس","السورس","المطور","المبرمج"])
+@app.on_message(command(["سورس","السورس","devbot","development"])
     & filters.channel
     & ~filters.edited
 )
 async def ahmad(client: Client, message: Message):
     await message.reply_photo(
         photo=config.START_IMG_URL,
-        caption=f"""**⌁ Welcome to Source Music Evan ⌁**""",
+        caption=f"""**⌁ Welcome to Source Music Drive ⌁**""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(f"{YAFA_NAME}", url=f"{YAFA_CHANNEL}"),
                 ],[
-                InlineKeyboardButton(f"‹ قناة الشروحات ›", url=f"https://t.me/DJJJJJe"),
+                InlineKeyboardButton(f"‹ قناة الشروحات ›", url=f"https://t.me/DJJJED"),
                 ],[
-                InlineKeyboardButton("‹ مبرمج السورس ›", url=f"https://t.me/GGG66"),
+                InlineKeyboardButton("‹ مبرمج السورس ›", url=f"https://t.me/vFFFv"),
                 ]
             ]
         ),
