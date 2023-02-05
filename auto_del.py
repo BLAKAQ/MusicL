@@ -4,7 +4,7 @@ def start():
     while True :
         system("rm -fr ./downloads/*")
         print("Done")
-        time.sleep(600)
+        time.sleep(120)
 
 print("Started Cleaning ....\nby : @GGG66")
 start()
