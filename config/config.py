@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "5093678"))
-API_HASH = getenv("API_HASH", "3953d7e8dad3bacc4b4ffb7d02a749af")
+API_ID = int(getenv("API_ID", "29603089"))
+API_HASH = getenv("API_HASH", "7e65ab034366aadac65591bf454b4483")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5749353655:AAGddm0NzBUpoqe_OTE7GDc-ARJiGbu1u68")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://evan:musc@cluster0.6igvww4.mongodb.net/?retryWrites=true&w=majority")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001739505630"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001872516670"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music Evan Team")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ProX Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5721307719").split())
+    map(int, getenv("OWNER_ID", "2132412121").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://t.me/vFFFv",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "E9C9BoT"
+    "BOT_USERNAME", "k6cbot"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,22 +68,22 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "F6FF6"
+    "CHANNEL_SUDO", "ProX_TEaM"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "‹ سورس درايف ›"
+    "YAFA_NAME", "‹ سورس بروكس ›"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/F6FF6"
+   " YAFA_CHANNEL", "https://t.me/ProX_TEaM"
 )  # رابط قناتك
 SUDO_USER =getenv(
-    "SUDO_USER", "https://t.me/vFFFv"
+    "SUDO_USER", "https://t.me/XQXQQ"
 )  # رابط حسابك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/F6FF6"
+    "SUPPORT_CHANNEL", "https://t.me/ProX_TEaM"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DJJJED"
+    "SUPPORT_GROUP", "https://t.me/inFo_ProX"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/f8fd8356250304204bada.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/3a35edc15b4f7d10c5748.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
