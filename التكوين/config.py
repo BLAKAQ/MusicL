@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "21104516"))
-API_HASH = getenv("API_HASH", "d34988eeacc558fb6bc8fb56e9b577f1")
+API_ID = int(getenv("API_ID", "8332468"))
+API_HASH = getenv("API_HASH", "e9c109f5c984ab70382f54c0e0a1e4cc")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "توكن")
+BOT_TOKEN = getenv("BOT_TOKEN", "5188655361:AAFQXD65t8EFDnlxm05gQwumtOiN7yVKz0o")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "رابط قاعده البيانات")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Alshmal:fq1C7RiZEndYgcz2@cluster0.2nqtyiy.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001629565849"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001673124234"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music Black")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "‹ Music Cadilac ›")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5893571541").split())
+    map(int, getenv("OWNER_ID", "1200295033").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,10 +56,10 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/vFFFv",
+    "https://t.me/MoShMaL",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "F12VJbot"
+    "BOT_USERNAME", "vq5bot"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,22 +68,22 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "Ga_X_VV1"
+    "CHANNEL_SUDO", "Cadilaac"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "سورس العظيم"
+    "YAFA_NAME", "‹ سـوࢪس كديـلاك ›"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/Ga_X_VV1"
+   " YAFA_CHANNEL", "http://t.me/Cadilaac"
 )  # رابط قناتك
 SUDO_USER =getenv(
-    "SUDO_USER", "https://t.me/V_8_V_V"
+    "SUDO_USER", "https://t.me/MoShMaL"
 )  # رابط حسابك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Ga_X_VV1"
+    "SUPPORT_CHANNEL", "https://t.me/Cadilaac"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Ga_X_VV1"
+    "SUPPORT_GROUP", "https://t.me/cdShMal"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -115,7 +115,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/V_8_V_V")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/GT4bot")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/2b965f36784d4cb34a2d0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/bd8874053915c83cdd324.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
