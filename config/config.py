@@ -21,10 +21,10 @@ API_ID = int(getenv("API_ID", "8332468"))
 API_HASH = getenv("API_HASH", "e9c109f5c984ab70382f54c0e0a1e4cc")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5188655361:AAFQXD65t8EFDnlxm05gQwumtOiN7yVKz0o")
+BOT_TOKEN = getenv("BOT_TOKEN", "5188655361:")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Alshmal:fq1C7RiZEndYgcz2@cluster0.2nqtyiy.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Alshmal:/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -40,11 +40,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001673124234"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music Cadilac")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1200295033").split())
+    map(int, getenv("OWNER_ID", "5933682219").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,10 +56,10 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/MoShMaL",
+    "https://t.me/vFFFv",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "vq5bot"
+    "BOT_USERNAME", "ll0llldbot"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,22 +68,22 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "Cadilaac"
+    "CHANNEL_SUDO", "ll0llld"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "‹ سـوࢪس كديـلاك ›"
+    "YAFA_NAME", "سورس الاعصار ⟠ ⦂"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "http://t.me/Cadilaac"
+   " YAFA_CHANNEL", "http://t.me/ll0llld"
 )  # رابط قناتك
 SUDO_USER =getenv(
-    "SUDO_USER", "https://t.me/MoShMaL"
+    "SUDO_USER", "https://t.me/S_1_02"
 )  # رابط حسابك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Cadilaac"
+    "SUPPORT_CHANNEL", "https://t.me/ll0llld"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/cdShMal"
+    "SUPPORT_GROUP", "https://t.me/RonyNH1"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -115,7 +115,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/GT4bot")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/N_S_Nbot")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
